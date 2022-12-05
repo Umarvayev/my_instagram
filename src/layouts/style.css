@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap');
+
+.navbar-logo{
+    font-family: Cookie, cursive;
+    font-size: 32px;
+}
+
+.bg-blue-inst {
+    background: #005c98;
+}
+
+.text-blue-inst {
+    color: #005c98;
+}
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.search_style{
+    width: 450px;
+    height: 35px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.navbarqisim{
+    background-color: black;
+}
+
+
+
+.navbar_qism {
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+}
+
+
+.logo{
+    color: rgb(11, 11, 11);
+}
+
+.my-bg{
+    position: absolute;
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Noto Serif Khojki';
+}
+
+
+.main_flex{
+    display: flex;
+    align-items: center;
+}
+
+.main_button{
+    background-color: white;
+    margin-top: 20px;
+}
+
+.tekkis_navbar{
+    margin-top: -20px;
+}
+
+.My_Profil {
+    color: rgb(12, 12, 12);
+}
+
+
+
+.rang1{
+    background-color: rgb(0, 0, 0);
+}
+
+.font_upload {
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.rand_bg_button {
+    
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Noto Serif Khojki';
+}
+
+.rand_bg_button1 {
+    background-color: black;
+    padding: 8px 50px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Serif Khojki';
+    margin-top: 10px;
+
+}
+
+.rasm2{
+    width: 100%;
+}
+
+.razmer1 {
+    width: 500px;
+    margin-left: 100px;
+    
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://st2.depositphotos.com/3757793/11519/v/600/depositphotos_115198246-stock-illustration-colorful-smooth-gradient-color-background.jpg);
+    background-size: cover;
+}
+
+.comment-1 {
+    outline: none;
+}
+
+.comment_post_1 {
+    background-color: black;
+    padding: 0px 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.right_comm {
+    background-color: white;
+    margin-top: -15px;
+    border-radius: 10px;
+    
+}
+
+.follow_bg{
+    background-color: white;
+    padding: 10px;
+    width: 280px;
+    
+}
+
+.my_text_button{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.container1{
+    width: 500px;
+    margin-left: 348px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.img_post1{
+    width: 76px;
+    border: 2px solid red;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+
+.user_profil_bg{
+    padding-top: 20px;
+    background-color: white;
+}
+
+.image_borders2 {
+    box-shadow: 0px 0px 20px 0px white;
+}
+
+
+.settings_upload_glavni {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_glava_edit {
+    width: 400px;
+    background-color: rgb(244, 234, 234);
+    border-radius: 10px;
+    border: 2px solid #999;
+   
+}
+
+
+.upload_user_img {
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px; 
+}
+
+
+.name_user_group{
+    color: white;
+}
+
+.upload_user_img2 {
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.login_system {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.name_login h1{
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Noto Serif Khojki';
+}
+
+.login_glava {
+    width: 400px;
+    background-color: rgb(243, 238, 238);
+    padding: 80px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(15, 15, 15);
+   
+}
+
+.input_sign_in{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.button_center{
+    display: flex;
+    justify-content: center;
+}
+
+.button_login {
+    color: rgb(4, 4, 4);
+    padding: 5px 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+
+.forget_button{
+    color: rgb(6, 6, 6);
+}
+
+.sign_up_buttons{
+    color: rgb(9, 9, 9);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign_up{
+    color: rgb(14, 13, 13);
+    padding: 5px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.my_post_text {
+    color: white;
+}

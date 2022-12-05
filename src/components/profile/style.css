@@ -1,0 +1,7 @@
+.comment-input:focus {
+    outline: none !important;
+    border-color: none;
+}
+.bug{
+    margin-left: -227px;
+}
