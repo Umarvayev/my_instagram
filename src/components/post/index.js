@@ -9,7 +9,7 @@ const Post = ({ content }) => {
     const commentInput = useRef(null);
     const handleFocus = () => commentInput.current.focus();
     return (
-        <div className="shadow-2xl rounded-xl col-span-4 border bg-white border-gray-primary mb-16 razmer1">
+        <div className="shadow-2xl rounded-xl col-span-4 border bg-white border-gray-primary mb-16 format">
             <Header username={content.username} avatarSrc={content.avatarSrc}/>
             <Image src={content.imageSrc} caption={content.caption}/>
             <Actions

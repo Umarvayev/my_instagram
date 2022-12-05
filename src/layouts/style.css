@@ -35,9 +35,10 @@
     background-color: white;
     padding: 4px;
     border-radius: 5px;
+    border: solid 1px black
 }
 
-.navbarqisim{
+.navbar_qismi{
     background-color: black;
 }
 
@@ -124,11 +125,11 @@
 
 }
 
-.rasm2{
+.foto{
     width: 100%;
 }
 
-.razmer1 {
+.format {
     width: 500px;
     margin-left: 100px;
     
@@ -198,14 +199,14 @@ body{
 }
 
 
-.settings_upload_glavni {
+.settings_upload_my {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login_glava_edit {
+.my_login_edit {
     width: 400px;
     background-color: rgb(244, 234, 234);
     border-radius: 10px;
@@ -248,7 +249,7 @@ body{
     font-family: 'Noto Serif Khojki';
 }
 
-.login_glava {
+.my_login {
     width: 400px;
     background-color: rgb(243, 238, 238);
     padding: 80px 20px;

@@ -70,8 +70,8 @@ const SignUp = () => {
         <title>Sign Up</title>
       </Helmet>
 
-      <div className="login_glava">
-        <div className="login_glava1">
+      <div className="my_login">
+        <div className="my_login_1">
           <div className="flex justify-center mb-4">
             <div className="name_login mb-10">
               <h1>My Instagram</h1>

@@ -90,8 +90,8 @@ const EditUserPage = () => {
   };
 
   return (
-    <div className="settings_upload_glavni">
-      <div className="login_glava_edit">
+    <div className="settings_upload_my">
+      <div className="my_login_edit">
         <EditModalProfile
           modalOpen={modalOpen}
           setModalOpen={setModalOpen}

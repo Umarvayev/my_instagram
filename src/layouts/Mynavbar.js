@@ -49,7 +49,7 @@ const NavBar = () => {
     return (
         <>
         <CreatePost open={open} setOpen={setOpen}/>
-        <div className="navbarqisim" ref={navbarRef} >
+        <div className="navbar_qismi" ref={navbarRef} >
             <div className="navbar_qism">
                
 
